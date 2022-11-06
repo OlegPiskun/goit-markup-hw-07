@@ -1,0 +1,68 @@
+$primaryFontWeight: 700;
+$secondFontWeight: 500;
+$primaryColor: #ffffff;
+$accentColor: #2196f3;
+
+body {
+  font-size: 14px;
+  color: #212121;
+  font-family: Roboto, sans-serif;
+}
+
+.page-header {
+  background-color: $primaryColor;
+  border-bottom: 1px solid #ececec;
+}
+
+.page-header__container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page-header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: $primaryFontWeight;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-decoration: none;
+}
+
+.logo__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo__text-web {
+  color: $accentColor;
+}
+
+.logo__text-studio {
+  color: #000000;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+  list-style: none;
+  text-decoration: none;
+}
+
+site-nav__item {
+  gap: 50px;
+}
+
+.site-nav__link--active {
+  color: $accentColor;
+}
