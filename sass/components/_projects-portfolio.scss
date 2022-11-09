@@ -22,13 +22,13 @@
   }
 }
 
-.projects-set__img:hover::after {
-  opacity: 1;
-}
-
 .projects-set__img {
   position: relative;
   overflow: hidden;
+
+  &:hover::after {
+    opacity: 1;
+  }
 }
 
 .projects-overlay {

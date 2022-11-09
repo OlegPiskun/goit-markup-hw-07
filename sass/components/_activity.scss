@@ -31,10 +31,10 @@
   width: 370px;
   height: 294px;
   list-style: none;
-}
 
-.product-set__item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .product-set__name {
